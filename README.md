@@ -5,9 +5,21 @@ As their Chief Data Analyst, you've been given access to the complete data from 
 To do this you are tasked with:
 
 Creating a scatter plot that shows how the tumor volume changes over time for each treatment.
+
+![Tumor volume over time](https://github.com/amandapfitz/matplotlib-challenge/blob/master/Pymaceuticals/Images/metastatic_spread.png)
+
 Creating a scatter plot that shows how the number of metastatic (cancer spreading) sites changes over time for each treatment.
-Creating a scatter plot that shows the number of mice still alive through the course of treatment (Survival Rate)
+
+![Site spread over time](https://github.com/amandapfitz/matplotlib-challenge/blob/master/Pymaceuticals/Images/tumor_response.png)
+
+Creating a scatter plot that shows the number of mice still alive through the course of treatment (Survival Rate).
+
+![Mouse survival over time](https://github.com/amandapfitz/matplotlib-challenge/blob/master/Pymaceuticals/Images/mouse_survival.png)
+
 Creating a bar graph that compares the total % tumor volume change for each drug across the full 45 days.
+
+![% Tumor volume change over time](https://github.com/amandapfitz/matplotlib-challenge/blob/master/Pymaceuticals/Images/tumor_per_change.png)
+
 Include 3 observations about the results of the study. Use the visualizations you generated from the study data as the basis for your observations.
 
 As final considerations:

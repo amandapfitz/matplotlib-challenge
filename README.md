@@ -1,35 +1,21 @@
 # matplotlib-challenge
 
-While your data companions rushed off to jobs in finance and government, you remained adamant that science was the way for you. Staying true to your mission, you've since joined Pymaceuticals Inc., a burgeoning pharmaceutical company based out of San Diego, CA. Pymaceuticals specializes in drug-based, anti-cancer pharmaceuticals. In their most recent efforts, they've since begun screening for potential treatments to squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
-As their Chief Data Analyst, you've been given access to the complete data from their most recent animal study. In this study, 250 mice were treated through a variety of drug regimes over the course of 45 days. Their physiological responses were then monitored over the course of that time. Your objective is to analyze the data to show how four treatments (Capomulin, Infubinol, Ketapril, and Placebo) compare.
-To do this you are tasked with:
+Given data from a pharmaceutical company that did an animal study on multiple drugs that treat cancerous tumors. I summarized the findings of four of the drugs used in the study and highlighted their results in graphs included below.
 
-Creating a scatter plot that shows how the tumor volume changes over time for each treatment.
+A scatter plot that shows how the tumor volume changes over time for each treatment.
 
 ![Tumor volume over time](https://github.com/amandapfitz/matplotlib-challenge/blob/master/Pymaceuticals/Images/metastatic_spread.png)
 
-Creating a scatter plot that shows how the number of metastatic (cancer spreading) sites changes over time for each treatment.
+A scatter plot that shows how the number of metastatic (cancer spreading) sites changes over time for each treatment.
 
 ![Site spread over time](https://github.com/amandapfitz/matplotlib-challenge/blob/master/Pymaceuticals/Images/tumor_response.png)
 
-Creating a scatter plot that shows the number of mice still alive through the course of treatment (Survival Rate).
+A scatter plot that shows the number of mice still alive through the course of treatment (Survival Rate).
 
 ![Mouse survival over time](https://github.com/amandapfitz/matplotlib-challenge/blob/master/Pymaceuticals/Images/mouse_survival.png)
 
-Creating a bar graph that compares the total % tumor volume change for each drug across the full 45 days.
+A bar graph that compares the total % tumor volume change for each drug across the full 45 days.
 
 ![% Tumor volume change over time](https://github.com/amandapfitz/matplotlib-challenge/blob/master/Pymaceuticals/Images/tumor_per_change.png)
 
-Include 3 observations about the results of the study. Use the visualizations you generated from the study data as the basis for your observations.
 
-As final considerations:
-
-You must use the Pandas Library and the Jupyter Notebook.
-You must use the Matplotlib library.
-You must include a written description of three observable trends based on the data.
-You must use proper labeling of your plots, including aspects like: Plot Titles, Axes Labels, Legend Labels, X and Y Axis Limits, etc.
-Your scatter plots must include error bars. This will allow the company to account for variability between mice.
-
-Your legends should not be overlaid on top of any data.
-Your bar graph should indicate tumor growth as red and tumor reduction as green.
-It should also include a label with the percentage change for each bar.
